@@ -172,13 +172,14 @@ hero
     margin-bottom: 40px;
   }
   .img-hero-wrap {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateX(-50%);
-    margin-top: 221px;
-    display: flex;
     position: relative;
+    /* top: 60px;
+    right: 0;
+    transform: translateX(-50%); */
+    /* position: relative;
+    top: 50px;
+    right: 40px; */
+    display: flex;
     border: 14px solid #ffe550;
     border-radius: 100%;
     width: 336px;
@@ -233,6 +234,9 @@ hero
     border-radius: 100%;
     width: 608px;
     height: 580px;
+    position: relative;
+    top: 14px;
+    right: 20px;
   }
   .arrow-btn {
     width: 48px;
